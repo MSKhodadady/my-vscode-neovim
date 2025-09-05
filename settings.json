@@ -1,0 +1,44 @@
+{
+  // EDITOR
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "editor.lineNumbers": "off",
+  // WORK BENCH & WINDOW
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Bearded Theme Aquarelle Cymbidium",
+  // EXPLORER & FILES
+  "explorer.autoReveal": false,
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "*.twig": "html"
+  },
+  // FILE TYPES
+  "[typescriptreact][typescript][javascript][javascriptreact][html][css][tailwindcss][json][jsonc][jsonl][scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+  // EXTENSIONS
+  "python.analysis.importFormat": "relative",
+  "python.analysis.autoImportCompletions": true,
+  "cSpell.language": "en,fa",
+  "cSpell.userWords": [
+    "autoincrement",
+    "Jalali",
+    "Vazirmatn",
+    "ادمین",
+    "پرهیزات",
+    "پیکسلی"
+  ],
+  "typescript.npm": "/home/sadeq/.volta/bin/npm",
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false,
+  "update.mode": "manual",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  }
+}
