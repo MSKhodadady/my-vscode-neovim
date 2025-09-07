@@ -84,12 +84,12 @@
     "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'"
   },
   {
-    "key": "space n",
+    "key": "space ]",
     "command": "workbench.action.nextEditor",
     "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'"
   },
   {
-    "key": "space p",
+    "key": "space [",
     "command": "workbench.action.previousEditor",
     "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'"
   },
@@ -106,6 +106,21 @@
   {
     "key": "space shift+r",
     "command": "workbench.action.openRecent",
+    "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'"
+  },
+  {
+    "key": "space q",
+    "command": "workbench.action.closeActiveEditor",
+    "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'"
+  },
+  {
+    "key": "space shift+q",
+    "command": "workbench.action.reopenClosedEditor",
+    "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'"
+  },
+  {
+    "key": "space f",
+    "command": "references-view.findReferences",
     "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'"
   }
 ]
