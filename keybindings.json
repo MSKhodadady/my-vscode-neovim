@@ -122,5 +122,21 @@
     "key": "space f",
     "command": "references-view.findReferences",
     "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'"
+  },
+  {
+    "key": "space s",
+    "command": "workbench.action.files.save",
+    "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'"
+  },
+  {
+    "key": "space shift+s",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.files.save",
+        "workbench.action.closeActiveEditor"
+      ]
+    },
+    "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'"
   }
 ]
