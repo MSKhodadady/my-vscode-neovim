@@ -129,14 +129,18 @@
     "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'"
   },
   {
-    "key": "space shift+s",
-    "command": "runCommands",
-    "args": {
-      "commands": [
-        "workbench.action.files.save",
-        "workbench.action.closeActiveEditor"
-      ]
-    },
+    "key": "space n e",
+    "command": "editor.action.marker.next",
+    "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'"
+  },
+  {
+    "key": "space p e",
+    "command": "editor.action.marker.prev",
+    "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'"
+  },
+  {
+    "key": "space k k",
+    "command": "workbench.action.openGlobalKeybindingsFile",
     "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'"
   }
 ]

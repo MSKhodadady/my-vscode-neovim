@@ -4,6 +4,7 @@
   "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace', monospace",
   "editor.fontLigatures": true,
   "editor.lineNumbers": "off",
+  "emmet.showExpandedAbbreviation": "never",
   // WORK BENCH & WINDOW
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Bearded Theme Aquarelle Cymbidium",
