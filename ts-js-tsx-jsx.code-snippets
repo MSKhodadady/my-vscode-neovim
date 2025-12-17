@@ -18,22 +18,56 @@
 	"export function": {
 		"scope": "javascript,typescript,typescriptreact,javascriptreact",
 		"prefix": "efun",
-		"body": "export function $1",
+		"body": [
+			"export function $1($2) {",
+			"\t$3",
+			"}"
+		]
 	},
 	"export default function": {
 		"scope": "javascript,typescript,typescriptreact,javascriptreact",
 		"prefix": "edfun",
-		"body": "export default function $1",
+		"body": [
+			"export default function $1($2) {",
+			"\t$3",
+			"}"
+		]
 	},
 	"export async function": {
 		"scope": "javascript,typescript,typescriptreact,javascriptreact",
 		"prefix": "esfun",
-		"body": "export async function $1",
+		"body": [
+			"export async function $1($2) {",
+			"\t$3",
+			"}"
+		]
 	},
 	"export default async function": {
 		"scope": "javascript,typescript,typescriptreact,javascriptreact",
 		"prefix": "edsfun",
-		"body": "export default async function $1",
+		"body": [
+			"export default async function $1($2) {",
+			"\t$3",
+			"}"
+		]
+	},
+	"function": {
+		"scope": "javascript,typescript,typescriptreact,javascriptreact",
+		"prefix": "fun",
+		"body": [
+			"function $1($2) {",
+			"\t$3",
+			"}"
+		]
+	},
+	"async function": {
+		"scope": "javascript,typescript,typescriptreact,javascriptreact",
+		"prefix": "sfun",
+		"body": [
+			"async function $1($2) {",
+			"\t$3",
+			"}"
+		]
 	},
 	"react useState": {
 		"scope": "javascript,typescript,typescriptreact,javascriptreact",
@@ -43,17 +77,14 @@
 			"$3"
 		],
 	},
-	"react useState without const": {
-		"scope": "javascript,typescript,typescriptreact,javascriptreact",
-		"prefix": "norush",
-		"body": [
-			"[$1, set${1/(.*)/${1:/capitalize}/}] = useState($2)",
-			"$3"
-		],
-	},
 	"anonymous function": {
 		"scope": "javascript,typescript,typescriptreact,javascriptreact",
 		"prefix": "afun",
 		"body": "$1($2) => $3",
+	},
+	"destruct object": {
+		"scope": "javascript,typescript,typescriptreact,javascriptreact",
+		"prefix": "des",
+		"body": "const { $2 } = $1;"
 	}
 }
