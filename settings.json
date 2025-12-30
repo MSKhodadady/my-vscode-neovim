@@ -67,5 +67,16 @@
     "asvetliakov.vscode-neovim": 1
   },
   "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
-  "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose"
+  "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
+  "todohighlight.keywords": [
+    {
+      "text": "NOTICE:",
+      "color": "blue",
+      "backgroundColor": "rgba(255, 255, 255, 0.5)"
+    }
+  ],
+  "Codegeex.Privacy": true,
+  "Codegeex.CommitMessage.LanguagePreference": "English",
+  "Codegeex.SidebarUI.LanguagePreference": "English",
+  "Codegeex.License": ""
 }
